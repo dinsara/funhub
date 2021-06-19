@@ -1,0 +1,54 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.banner1{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+img{
+	width: 120%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	animation: zoom-out 3s linear ;
+}
+@keyframes zoom-out{
+	100%{
+		width: 100%
+	}
+}
+.banner1{
+	animation: slide 12s linear ;
+}
+@keyframes slide{
+	0%{
+		visibility: visible;
+	}
+	25%{
+		visibility: visible;
+	}
+	50%{
+		visibility: visible;
+	}
+	75%{
+		visibility: visible;
+	}
+	100%{
+		visibility: hidden;
+	}
+}
+
+
+
+
+
+
+
+

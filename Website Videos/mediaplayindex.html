@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Play</title>
+	<link rel="stylesheet" type="text/css" href="mediaplaystyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img src="121.png" class="logo">
+			<ul>
+				<li><a href="homeindex.html">Back To Home</a></li>
+				<li><a href="mediaplayindex.html">Media</a></li>
+				<li><a href="videoindex.html">Movie-Croods 2020</a></li>
+				<li><a href="animationindex.html">Animation</a></li>
+				<li><a href="loginindex.html">Login</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="left-col">
+				<h1>THE<br> REAL <br>SOUND</h1>
+			</div>
+			<div class="rigth-col">
+				<p>Click Here To Listen</p>
+				<img src="rr.png" id="icon">
+			</div>
+		</div>
+	</div>
+
+	<audio id="mySong">
+		<source src="8.mp3" type="audio/mp3">
+	</audio>
+
+<script>
+	var mySong = document.getElementById("mySong");
+	var icon = document.getElementById("icon");
+
+	icon.onclick =function(){
+		if (mySong.paused) {
+			mySong.play();
+			icon.src ="r.png";
+		}else{
+			mySong.pause();
+			icon.src ="rr.png";
+		}
+	}
+</script>
+
+</body>
+</html>

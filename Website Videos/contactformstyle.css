@@ -1,0 +1,126 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background:url(contact.jpg);
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-size: cover;
+	display: table;
+	font-family: Quicksand;
+	transition:  0.8s ease;
+}
+.g{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background-size: cover;
+	background-position: auto;
+	font-family: cursive;
+}
+.contact-title{
+	margin-top: 100px;
+	color: #000;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.contact-title h2{
+	font-size: 16px;
+}
+.form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid black;
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: #000;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: inherit;
+	letter-spacing: 1px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 80px;
+}
+
+.left{
+	float: left;
+}
+
+.left ul{
+	list-style: none;
+	padding: 1em 3em;
+}
+
+.left ul li {
+	display: inline-block;
+}
+
+.left ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	padding: 8px 16px;
+	font-family: Monospace;
+	font-size: 20px;
+}
+
+.right {
+	float: right;
+}
+
+.right ul{
+	list-style: none;
+	padding: 1em 3em;
+}
+
+.right ul li {
+	display: inline-block;
+}
+
+.right ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	padding: 8px 16px;
+	font-family: Monospace;
+	font-size: 20px;
+}
+.right li a:nth-child(2) {
+	border: 1px solid #000;
+	border-radius: 4px;
+}

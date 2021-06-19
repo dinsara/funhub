@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<link rel="stylesheet" type="text/css" href="animationstyle.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="bro">
+			<h1 id="btn">Running Car Annimation 👨🏻‍💻</h1>
+			<script>
+		
+             var btn = document.getElementById("btn");
+
+                btn.onclick = function(){
+                    if (btn.classList.contains("neon")){
+                        btn.classList.remove("neon");
+                        btn.innerHTML = "Running Car Annimation 👨🏻‍💻"
+                    }
+                    else{
+                        btn.classList.add("neon");
+                        btn.innerHTML = "By Dinsara Production"
+                    }
+                }
+            </script>
+		</div>
+
+
+		<ul class="back-to-home">
+		<li><a href="homeindex.html">Back To Home</a></li>
+	</ul>
+		<div class="logo">
+				<img src="121.png">
+			</div>
+		<div class="highway"></div>
+		<div class="city"></div>
+		<div class="car">
+			<img src="car.png">
+		</div>
+
+		<div class="wheel">
+			<img src="wheel.png" class="back-wheel">
+			<img src="wheel.png" class="front-wheel">
+		</div>
+	</div>
+
+</body>
+</html>

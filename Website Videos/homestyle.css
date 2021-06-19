@@ -1,0 +1,126 @@
+*{
+	text-decoration:none;
+	padding: 5px 20px;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+header{
+	background:url(90.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	transition: 2s ease;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 30px;
+	border: 2px solid transparent;
+	font-family:  Monospace;
+	font-size: 20px;
+	transition: 0.6s ease;
+}
+.nav-area li a:hover{
+	background: #fff;
+	color: #333;
+}
+ul li.active a{
+	background: #fff;
+	color: #333;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+	transition: 0.6s ease;
+}
+.welcome-text{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 80px;
+	transition: 0.6s ease;
+	font-family: cursive;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+	transition: 0.6s ease;
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
+}
+.neon-light{
+	width: 15px;
+	height: 225px;
+	background: transparent;
+	border-radius: 15px;
+	position: absolute;
+	left: 50%;
+	top: 38%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 0 40px 5px #fff,
+	    inset 0 0 20px #fff,
+	    0 0 160px 20px #fff,
+	    inset 0 0 20px #fff,
+	    0 0 320px 30px #fff,
+	    inset 0 0 20px #fff;
+	animation: run 2s linear infinite;
+}
+@keyframes run{
+	0%{
+		left: 10%;
+		opacity: 1;
+	}
+	2%{
+		left: 10%;
+		opacity: 1;
+	}
+	4%{
+		left: 10%;
+		opacity: 0;
+	}
+	6%{
+		left: 10%;
+		opacity: 1;
+	}
+	8%{
+		left: 10%;
+		opacity: 0;
+	}
+	10%{
+		left: 10%;
+		opacity: 1;
+	}
+	100%{
+		left: 90%;
+		opacity: 0;
+	}
+}
